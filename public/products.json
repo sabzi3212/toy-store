@@ -2,82 +2,82 @@
     {
         "_id": "635a0c0b64a6d231228942ae",
         "service_id": "04",
-        "title": "Engine Oil Change",
+        "title": "Vintage Car",
         "img": "https://i.ibb.co/WK6r6VT/isaac-martin-C09-NUA6a-M2o-unsplash.jpg",
         "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "description": "Vintage car is the most ordered car ever. You can build your collection with a more elegent way with it",
         "sub_cat": "car"
     },
     {
         "_id": "635a0c0b64a6d231228942af",
         "service_id": "05",
-        "title": "Battery Charge",
+        "title": "Lamborgini car",
         "img": "https://i.ibb.co/5YmrbtH/gimmel-magaway-4-E0u7-Vsf-Gms-unsplash.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "price": "60.00",
+        "description": "lamborgini car is the most ordered car ever. You can build your collection with a more elegent way with it",
         "sub_cat": "car"
     },
     {
         "_id": "635b591a1dafe382a9da8c96",
         "service_id": "01",
-        "title": "Full car Repair",
+        "title": "Porsche",
         "img": "https://i.ibb.co/w4FbBx3/giorgio-trovato-0-CZwu-Zhi-C84-unsplash.jpg",
         "price": "200.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "description": "Porsche car is the most ordered car ever. You can build your collection with a more elegent way with it",
         "sub_cat": "car"
     },
     {
         "_id": "635b5afc1dafe382a9da8c98",
         "service_id": "02",
-        "title": "Engine Repair",
+        "title": "Booster Truck",
         "img": "https://i.ibb.co/cFcgFc8/michael-fousert-Kv2hu25-Rx2s-unsplash.jpg",
         "price": "150.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "description": "booster truck is the most ordered car ever. You can build your collection with a more elegent way with it",
         "sub_cat": "truck"
     },
     {
         "_id": "635b5b691dafe382a9da8c99",
         "service_id": "03",
-        "title": "Automatic Services",
+        "title": "Auto Truck",
         "img": "https://i.ibb.co/mXh56bJ/jeong-pei-8cr-KCgb-KBs-unsplash.jpg",
         "price": "30.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "description": "Auto truck is the most ordered car ever. You can build your collection with a more elegent way with it",
         "sub_cat": "truck"
     },
     {
         "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
-        "title": "Electrical System",
+        "title": "Electric Truck",
         "img": "https://i.ibb.co/h22BjRW/louise-smith-Sdmc-VAn-WQ-c-unsplash.jpg",
         "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "description": "Electric truck is the most ordered car ever. You can build your collection with a more elegent way with it",
         "sub_cat": "truck"
     },
     {
         "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
-        "title": "Electrical System",
+        "title": "FZ-5 Bike",
         "img": "https://i.ibb.co/BgQFxk7/josh-cris-gayle-w-ZFdd-Oi5-Gm-U-unsplash.jpg",
         "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "description": "FZ-5 Bike is the most ordered car ever. You can build your collection with a more elegent way with it",
         "sub_cat": "bike"
     },
     {
         "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
-        "title": "Electrical System",
+        "title": "Suzuki Bike",
         "img": "https://i.ibb.co/D8yr2nM/stefan-lehner-DS2-Jrh-Xp-EVY-unsplash.jpg",
         "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "description": "Suzuki Bike is the most ordered car ever. You can build your collection with a more elegent way with it",
         "sub_cat": "bike"
     },
     {
         "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
-        "title": "Electrical System",
+        "title": "Kawasaki Bike",
         "img": "https://i.ibb.co/XSSTJyT/vega-zuhra-v-ACTf-AV9iq-Q-unsplash.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "price": "1200.00",
+        "description": "Kawasaki Bike is the most ordered car ever. You can build your collection with a more elegent way with it",
         "sub_cat": "bike"
     }
 ]
