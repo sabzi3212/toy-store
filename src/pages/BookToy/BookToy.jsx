@@ -1,37 +1,58 @@
-import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../Providers/AuthProvider';
+import { useContext } from 'react';
+import Swal from 'sweetalert2'
+
 
 const BookToy = () => {
     const product = useLoaderData();
-    const{_id ,title, img, price, description} = product;
+    const{_id ,title, img, price} = product;
     const {user} = useContext(AuthContext);
     const handleBooking = (event) =>{
         event.preventDefault();
         const form = event.target;
-        const name = form.name.value;
+        const name = form.userName.value;
         const email = user?.email;
-        const price = form.price.value;
-        const product = form.product.value;
-        const order ={
+        const booking = {
             customerName: name,
             email,
-            product,
-            price,
-            service: _id
+            product: title,
+            price: price,
+            service_id: _id,
+            img
         }
-        console.log(order);
+        console.log(booking);
+        fetch('http://localhost:5000/bookings', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(booking)
+        },[user])
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+            if(data.insertedId){
+                Swal.fire({
+                    title: 'Order Confirmed!',
+                    text: 'Do you want to continue',
+                    icon: 'success',
+                    confirmButtonText: 'Cool'
+                  })
+            }
+        })
+
     }
     return (
         <div>
-            <h2>Book your toy {title}</h2>
+            <h2 className='text-center text-7xl mb-4'>Book Your Toy</h2>
             <form onSubmit={handleBooking}>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-3'>
             <div className="form-control">
           <label className="label">
             <span className="label-text">Buyer Name</span>
           </label>
-          <input name='name' type="text" placeholder="Name" className="input input-bordered" />
+          <input name='userName' type="text" placeholder="Name" className="input input-bordered" />
         </div>
         <div className="form-control">
           <label className="label">
@@ -43,7 +64,7 @@ const BookToy = () => {
           <label className="label">
             <span className="label-text">Price</span>
           </label>
-          <input readOnly defaultValue={'$' + price} name='price' type="text" placeholder="Price" className="input input-bordered" />
+          <input readOnly defaultValue={'$'+ price} name='price' type="text" placeholder="Price" className="input input-bordered" />
         </div>
         <div className="form-control">
           <label className="label">

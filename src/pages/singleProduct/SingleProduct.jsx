@@ -16,7 +16,7 @@ const SingleProduct = () => {
     <p>{description}</p>
     <p>Price: ${price}</p>
     <div className="card-actions">
-      <Link to={`/booking/${_id}`}><button className="btn btn-primary">Order Now</button></Link>
+      <Link to={`/order/${_id}`}><button className="btn btn-primary">Order Now</button></Link>
     </div>
   </div>
 </div>
