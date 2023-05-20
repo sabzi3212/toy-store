@@ -1,10 +1,10 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 
 const SingleProduct = () => {
     const product = useLoaderData()
 
-    const{title, img, price, description} = product;
+    const{_id ,title, img, price, description} = product;
     return (
        
         <div className="card w-96 bg-base-100 shadow-xl mx-auto mt-5 mb-5">
@@ -16,7 +16,7 @@ const SingleProduct = () => {
     <p>{description}</p>
     <p>Price: ${price}</p>
     <div className="card-actions">
-      <button className="btn btn-primary">Buy Now</button>
+      <Link to={`/booking/${_id}`}><button className="btn btn-primary">Order Now</button></Link>
     </div>
   </div>
 </div>

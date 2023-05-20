@@ -4,6 +4,7 @@ import Home from "../pages/Home/Home/Home";
 import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
 import SingleProduct from "../pages/singleProduct/SingleProduct";
+import BookToy from "../pages/BookToy/BookToy";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
         {
           path: '/products/:id',
           element:<SingleProduct></SingleProduct>,
+          loader: ({params}) => fetch(`http://localhost:5000/products/${params.id}`)
+        },
+        {
+          path: '/booking/:id',
+          element: <BookToy></BookToy>,
           loader: ({params}) => fetch(`http://localhost:5000/products/${params.id}`)
         }
       ]
