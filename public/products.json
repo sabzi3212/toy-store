@@ -1,6 +1,5 @@
 [
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "04",
         "title": "Vintage Car",
         "img": "https://i.ibb.co/WK6r6VT/isaac-martin-C09-NUA6a-M2o-unsplash.jpg",
@@ -9,7 +8,6 @@
         "sub_cat": "car"
     },
     {
-        "_id": "635a0c0b64a6d231228942af",
         "service_id": "05",
         "title": "Lamborgini car",
         "img": "https://i.ibb.co/5YmrbtH/gimmel-magaway-4-E0u7-Vsf-Gms-unsplash.jpg",
@@ -18,7 +16,6 @@
         "sub_cat": "car"
     },
     {
-        "_id": "635b591a1dafe382a9da8c96",
         "service_id": "01",
         "title": "Porsche",
         "img": "https://i.ibb.co/w4FbBx3/giorgio-trovato-0-CZwu-Zhi-C84-unsplash.jpg",
@@ -27,7 +24,6 @@
         "sub_cat": "car"
     },
     {
-        "_id": "635b5afc1dafe382a9da8c98",
         "service_id": "02",
         "title": "Booster Truck",
         "img": "https://i.ibb.co/cFcgFc8/michael-fousert-Kv2hu25-Rx2s-unsplash.jpg",
@@ -36,7 +32,6 @@
         "sub_cat": "truck"
     },
     {
-        "_id": "635b5b691dafe382a9da8c99",
         "service_id": "03",
         "title": "Auto Truck",
         "img": "https://i.ibb.co/mXh56bJ/jeong-pei-8cr-KCgb-KBs-unsplash.jpg",
@@ -45,7 +40,6 @@
         "sub_cat": "truck"
     },
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
         "title": "Electric Truck",
         "img": "https://i.ibb.co/h22BjRW/louise-smith-Sdmc-VAn-WQ-c-unsplash.jpg",
@@ -54,7 +48,6 @@
         "sub_cat": "truck"
     },
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
         "title": "FZ-5 Bike",
         "img": "https://i.ibb.co/BgQFxk7/josh-cris-gayle-w-ZFdd-Oi5-Gm-U-unsplash.jpg",
@@ -63,7 +56,6 @@
         "sub_cat": "bike"
     },
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
         "title": "Suzuki Bike",
         "img": "https://i.ibb.co/D8yr2nM/stefan-lehner-DS2-Jrh-Xp-EVY-unsplash.jpg",
@@ -72,7 +64,6 @@
         "sub_cat": "bike"
     },
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
         "title": "Kawasaki Bike",
         "img": "https://i.ibb.co/XSSTJyT/vega-zuhra-v-ACTf-AV9iq-Q-unsplash.jpg",
