@@ -4,7 +4,7 @@ const Blogs = () => {
     return (
         <div>
             <h1 className='text-5xl font-bold'>
-            What is an access token and refresh token? How do they work and where should we store them on the client-side?
+            What is an access token and refresh token? How do they work and where should we store them on the client-side
             </h1>
             <p>Refresh tokens allow us to balance users' access needs with our organization's security practices. Access tokens help users get the resources they need to complete their tasks, but such tokens can also expose our organization to data compromise or other malicious actions if a hacker is able to steal them. <br />
             We can store the access token and refresh token in the server-side session. The application can use web sessions to communicate with the server. The token is then available for any requests originating from server-side code.
