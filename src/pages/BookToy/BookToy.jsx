@@ -22,7 +22,7 @@ const BookToy = () => {
             img
         }
         console.log(booking);
-        fetch('http://localhost:5000/bookings', {
+        fetch('https://assignment-11-server-tau-seven.vercel.app/bookings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

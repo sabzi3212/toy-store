@@ -34,12 +34,12 @@ const router = createBrowserRouter([
         {
           path: '/products/:id',
           element:<PrivateRoute><SingleProduct></SingleProduct></PrivateRoute>,
-          loader: ({params}) => fetch(`http://localhost:5000/products/${params.id}`)
+          loader: ({params}) => fetch(`https://assignment-11-server-tau-seven.vercel.app/products/${params.id}`)
         },
         {
           path: '/order/:id',
           element: <BookToy></BookToy>,
-          loader: ({params}) => fetch(`http://localhost:5000/products/${params.id}`)
+          loader: ({params}) => fetch(`https://assignment-11-server-tau-seven.vercel.app/products/${params.id}`)
         },
         {
           path: '/addToy',
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
         {
           path: '/myToys/update/:id',
           element: <UpdateProduct></UpdateProduct>,
-          loader: ({params}) => fetch(`http://localhost:5000/products/${params.id}`)
+          loader: ({params}) => fetch(`https://assignment-11-server-tau-seven.vercel.app/products/${params.id}`)
         },
         {
           path: '/blogs',
