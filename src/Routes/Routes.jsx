@@ -10,6 +10,8 @@ import AllToys from "../pages/AllToy/AllToys";
 import BookedToys from "../pages/BookedToys/BookedToys";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import UpdateProduct from "../pages/UpdateProduct/UpdateProduct";
+import ErrorPage from "../Layout/ErrorPage";
+import Error from "../Error";
 
 const router = createBrowserRouter([
     {
@@ -57,6 +59,10 @@ const router = createBrowserRouter([
         }
       ]
     },
+    {
+      path: "*",
+      element:<Error></Error>
+    }
   ]);
 
   export default router;
