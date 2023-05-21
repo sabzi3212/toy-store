@@ -3,10 +3,11 @@ import { AuthContext } from '../../Providers/AuthProvider';
 import Swal from 'sweetalert2';
 import { useLoaderData } from 'react-router-dom';
 
-
-const AddToy = () => {
+const UpdateProduct = () => {
     const {user} = useContext(AuthContext);
-    const handleAddToy = event =>{
+    const toys =useLoaderData();
+    const {_id, title, quantity} = toys;
+    const handleUpdate = event =>{
         event.preventDefault();
         const form = event.target;
         const name = form.name.value;
@@ -18,37 +19,38 @@ const AddToy = () => {
         const quantity = form.quantity.value;
         const description = form.description.value;
 
-        const toy = {
+        const updatedToy = {
            title: name, email,
            img: photo, Sellername,
            sub_cat: subCategory, price, quantity, description
         }
-        console.log(toy);
+        console.log(updatedToy);
 
-        fetch('http://localhost:5000/toys', {
-            method: 'POST',
+        fetch(`http://localhost:5000/toys/${_id}`, {
+            method: 'PUT',
             headers: {
                 'content-type' : 'application/json'
             },
-            body: JSON.stringify(toy)
+            body: JSON.stringify(updatedToy)
         })
         .then(res => res.json())
         .then(data => {
             console.log(data);
-            if(data.insertedId){
+            if(data.modifiedCount > 0){
                 Swal.fire({
-                    title: 'Toy Added!',
+                    title: 'Toy Updated!',
                     text: 'Do you want to continue',
                     icon: 'success',
                     confirmButtonText: 'Cool'
                   })
             }
         })
+    
     }
     return (
         <div>
-            <h2 className='text-center text-7xl mb-4'>Add Your Toy</h2>
-            <form onSubmit={handleAddToy}>
+            <h2 className='text-center text-7xl mb-4'>Update Your Toy</h2>
+            <form onSubmit={handleUpdate}>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-3'>
             <div className="form-control">
           <label className="label">
@@ -58,7 +60,7 @@ const AddToy = () => {
         </div>
             <div className="form-control">
           <label className="label">
-            <span className="label-text">Name</span>
+            <span className="label-text" defaultValue={title}>Name</span>
           </label>
           <input name='name' type="text" placeholder="Name" className="input input-bordered" />
         </div>
@@ -100,11 +102,11 @@ const AddToy = () => {
         </div>
             </div>
         <div className="form-control mt-6">
-          <input type="submit" value='Add' className="btn btn-primary btn-block"/>
+          <input type="submit" value='Update' className="btn btn-primary btn-block"/>
         </div>
             </form>
     </div>
     );
 };
 
-export default AddToy;
+export default UpdateProduct;
