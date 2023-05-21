@@ -15,11 +15,11 @@ const NavigationBar = () => {
                     <>
                         <li><Link to='/myToys'>My Toys</Link></li>
                         <li><Link to='/addToy'>Add Toys</Link></li>
-                        <li><Link to='/'>Blog</Link></li>
+                        <li><Link to='/blogs'>Blog</Link></li>
                     </>
                     :
                     <>
-                        <li><Link to='/'>Blog</Link></li>
+                        <li><Link to='/blogs'>Blog</Link></li>
                     </>
             }
 
