@@ -9,12 +9,12 @@ const NavigationBar = () => {
     const navItems =
         <>
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='/'>All Toys</Link></li>
+            <li><Link to='/allToys'>All Toys</Link></li>
             {
                 user?.email ?
                     <>
-                        <li><Link to='/'>My Toys</Link></li>
-                        <li><Link to='/'>Add Toys</Link></li>
+                        <li><Link to='/myToys'>My Toys</Link></li>
+                        <li><Link to='/addToy'>Add Toys</Link></li>
                         <li><Link to='/'>Blog</Link></li>
                     </>
                     :

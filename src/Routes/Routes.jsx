@@ -5,6 +5,10 @@ import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
 import SingleProduct from "../pages/singleProduct/SingleProduct";
 import BookToy from "../pages/BookToy/BookToy";
+import AddToy from "../pages/AddToy/AddToy";
+import AllToys from "../pages/AllToy/AllToys";
+import BookedToys from "../pages/BookedToys/BookedToys";
+import PrivateRoute from "./PrivateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +36,18 @@ const router = createBrowserRouter([
           path: '/order/:id',
           element: <BookToy></BookToy>,
           loader: ({params}) => fetch(`http://localhost:5000/products/${params.id}`)
+        },
+        {
+          path: '/addToy',
+          element:<AddToy></AddToy>
+        },
+        {
+          path: '/allToys',
+          element: <AllToys></AllToys>
+        },
+        {
+          path: '/myToys',
+          element: <PrivateRoute><BookedToys></BookedToys></PrivateRoute>
         }
       ]
     },
